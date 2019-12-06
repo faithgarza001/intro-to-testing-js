@@ -1,4 +1,4 @@
-# Intro to Testing in JS
+****# Intro to Testing in JS
 
 ## Summary
 This is an introduction to automated testing in JavaScript. The idea behind automated testing is to provide immediate feedback on the code you write to solve a problem, add a feature, or fix a bug. The feedback from the tests comes in the form of green passing tests or red failing tests. Tests are functions that test functions to compare the results of the actual output vs. the expected output.
@@ -40,7 +40,17 @@ Additionally, we will be using a process called Test Driven Development, commonl
 [Test Driven Development](https://en.wikipedia.org/wiki/Test-driven_development), TDD, is the process of authoring a test before writing any other code. Here's the TDD workflow:
 
 1. Step 1: Write the smallest possible test: Identify the simplest, smallest thing you want to confirm. For example, before a function exists, assert that the function is defined.
+
+
+
+
+
 2. Step 2: Run all the tests to ensure that the new test fails. We're **supposed** to see a red, failing test, since there's no code yet to green it. Red means we did the first step correctly. Seeing the newest test turn red is critical because our tests drive the development, not the other way around.
+
+
+
+
+
 3. Step 3: Write only enough code to green that newest test. No more, no less. It's OK if things are hard-coded here.
 4. Step 4: Run all tests. We're looking for green tests across the board.
 5. Step 5: Refactor the code. 
@@ -75,6 +85,7 @@ Additionally, we will be using a process called Test Driven Development, commonl
 
 1. Once you're setup and comfortable, go to `code.js` and change the name of the `helloWorld` function to `hello`. Then refresh `report.html` in your browser.
     - What do you notice about the test results?
+    function names not matching
     - What are some ways you think we could get the tests to turn green again?
     - Set the function name in `code.js` back to `helloWorld` and re-run the tests.
     
